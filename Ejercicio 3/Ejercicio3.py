@@ -35,7 +35,7 @@ sub5_Frame.grid(column=1, row=0,sticky=(W,E,N,S),padx= 20, pady= 10,rowspan=2)
 
 #frame 1
 imagen2 = PhotoImage(file="menu.png")
-etqImagen=ttk.Label(sub2_Frame,bg="gray2", bd=0)
+etqImagen=ttk.Button(sub2_Frame,bg="gray40", bd=0)
 etqImagen.grid(column=0,row=0,sticky=(W))
 etqImagen['image']=imagen2
 
